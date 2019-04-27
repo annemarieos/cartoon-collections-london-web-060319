@@ -17,9 +17,9 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  planeteer_calls.map! {|planeteer_call| planeteer_call.capitalise}
-  planeteer_call.each {|planeteer_call| puts planeteer_call + "!"}
-end 
+  planeteer_calls.map! {|value| value.capitalise}
+  planeteer_calls.each {|value| puts value + "!"}
+end
 end
 
 def long_planeteer_calls# code an argument here
