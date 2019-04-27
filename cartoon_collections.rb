@@ -9,7 +9,7 @@ dwarves = %w[
 ]
 
 def roll_call_dwarves(dwarves)# code an argument here
-  dwarves.each_with_index do {|dwarf, i|}
+  dwarves.each_with_index do |dwarf, i|
     puts "#{index + 1}. #{dwarf}"
   end
 
