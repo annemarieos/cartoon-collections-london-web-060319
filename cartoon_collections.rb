@@ -28,7 +28,7 @@ end
 
 def find_the_cheese(cheese_types)# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = %w[chedda gouda camembert]
   cheese.find do |perhaps_cheese|
     cheese_types.include?(perhaps_cheese)
   end
