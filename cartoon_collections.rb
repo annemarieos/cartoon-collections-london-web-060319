@@ -14,9 +14,10 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
+planeteer_calls = %w[wind earth fire water heart]
+
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
-  planeteer_calls = %w[wind earth fire water heart]
   planeteer_calls.map! {|value| value.capitalize + "!"}
 end
 
